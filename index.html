@@ -1,0 +1,106 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+		content="width=device-width,
+				initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>web mobile</title>
+
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+
+    <h1 id="title" class="red_text">
+
+        <script type="text/javascript">
+            document.write("<center><font size=+5 style='color: yellow;'>");
+            var day = new Date();
+            var hr = day.getHours();
+            if (hr >= 6 && hr < 12) {
+                document.write("Good Morning!");
+            } else if (hr >= 12 && hr <= 21) {
+                document.write("Good Afternoon!");
+            } else {
+                document.write("Good Evening!");
+            }
+            document.write("</font></center>");
+        </script>
+
+    </h1>
+    <h1 class="red_text">How do you do?</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore impedit libero, aut a quibusdam veritatis officiis reprehenderit et repudiandae quos explicabo consequatur maxime animi facilis labore saepe, voluptatem magnam alias?</p>
+
+    <script type="text/javascript">
+        var images = [],
+            index = 0;
+        images[0] = 
+        images[1] = 
+        images[2] = 
+        index = Math.floor(Math.random() * images.length);
+        document.write(images[index]);
+    </script>
+
+    <h3>Favorite drinks for the morning:</h3>
+    <ol>
+        <li class="drinks">Milk</li>
+        <li class="drinks">Tea</li>
+        <li class="drinks">Orange juice</li>
+		
+    </ol>
+	
+</head>
+<body>
+	<title>Rock Paper Scissor</title>
+	<section class="game">
+		
+		<div class="title">Rock Paper Scissor</div>
+		
+		
+		<div class="score">
+			<div class="playerScore">
+				<h2>Player</h2>
+				<p class="p-count count">0</p>
+
+			</div>	
+			<div class="computerScore">
+				<h2>Computer</h2>
+				<p class="c-count count">0</p>
+
+			</div>
+		</div>
+	
+		<div class="move">Choose your move</div>
+		
+		
+		<div class="movesleft">Moves Left: 10 </div>
+		
+		
+		<div class="options">
+			<button class="rock">Rock</button>
+			<button class="paper">Paper</button>
+			<button class="scissor">Scissors</button>
+		</div>
+		
+		
+		<div class="result"></div>
+		
+		
+		<button class="reload"></button>
+
+	</section>
+
+	<script src="index.js"></script>
+</body>
+</html>
